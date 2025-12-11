@@ -183,23 +183,10 @@ function App() {
           <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
             Portfolio
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {[1, 2, 3].map((index) => (
-              <div
-                key={index}
-                className="group bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all duration-300 p-8 rounded-sm"
-              >
-                <div className="h-12 w-12 bg-gradient-to-br from-white to-gray-500 rounded-sm mb-6 group-hover:scale-110 transition-transform duration-300" />
-                <h3 className="text-2xl font-bold mb-3">Company {index}</h3>
-                <p className="text-gray-400 mb-6 leading-relaxed">
-                  Building innovative solutions that solve real problems at
-                  scale.
-                </p>
-                <button className="inline-flex items-center gap-2 text-white hover:gap-3 transition-all duration-300">
-                  Learn More <ArrowRight size={16} />
-                </button>
-              </div>
-            ))}
+          <div className="max-w-2xl mx-auto text-center">
+            <p className="text-xl text-gray-400 leading-relaxed">
+              Our portfolio companies are currently in stealth mode. Check back soon for updates.
+            </p>
           </div>
         </div>
       </section>
